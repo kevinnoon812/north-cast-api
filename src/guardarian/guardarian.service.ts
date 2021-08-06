@@ -20,7 +20,7 @@ export class GuardarianService {
 
   /**
    * Get estimate exchange rate
-   * @param getEstimationDto‰
+   * @param getEstimationDto
    */
   async getEstimation(getEstimationDto: GetEstimationDto) {
     const baseURL = this.configService.get('GUARDARIAN_API_BASE_URL');
